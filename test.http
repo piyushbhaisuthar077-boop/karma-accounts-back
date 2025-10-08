@@ -1,0 +1,9 @@
+### User Signup Test
+POST {{host}}/api/auth/signup
+Content-Type: application/json
+
+{
+  "fullName": "Piyush Suthar",
+  "email": "piyush@example.com",
+  "password": "securepassword123"
+}
